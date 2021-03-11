@@ -4,19 +4,14 @@
 
 # The Task:
 
-We have provided you with a sample skeleton iOS Project, which includes an iOS Application that   plays a video file and consumes the SportBuff SDK that you will need to create as part of your Tech Task.
+We have provided you with a sample skeleton iOS Project, which includes an iOS Application that plays a video file and consumes the SportBuff SDK that you will need to create as part of your Tech Task.
 
-The Buffs that your SDK create should display over this Video File.
-
-
+The Buffs that the SDK create should display over this Video File.
 
 ## iOS SDK
 
-We want an SDK that the Provided iOS App uses to display content (Buff's as we call them) over the existing video.
-
+As part of this tech task, we want you to create an SDK that the provided iOS App uses to display content (Buff's as we call them) over the existing video.
 The SDK should expose a view that the host Application is adding over the video frame that displays the Buff content there.
-
-
 
 ### SDK Requirements
 
@@ -25,14 +20,11 @@ The SDK should have the following features
 - Expose a view that the host App will add in the UI over the video stream to display the Buffs
 - Handle all the business and UI logic to display the Buffs over the video in the view
 
-
-
 ### Buff UI
 
 The Buff UI should look like this:
 
 ![Buff](Buff.png)
-
 
 
 The UI has 3 sections:
@@ -72,7 +64,7 @@ https://github.com/buffup/iOSTechTest/blob/master/Buff.mov?raw=true
 ## How to Submit your solution:
 
 - Clone this repository
-- Create a public repo in github, bitbucket or a suitable alternative and provide a link to the repository.
+- Create a public or private repo in github, bitbucket or a suitable alternative and provide a link to the repository.
 - **Provide a readme** in markdown which details your code and any libraries that you may have used.
 
 ## API Usage
