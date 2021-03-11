@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E6497CCF25FA7FBA004AFD12 /* BuffSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E6497CA825FA7DB9004AFD12 /* BuffSDK.framework */; };
+		E6497CD025FA7FBA004AFD12 /* BuffSDK.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = E6497CA825FA7DB9004AFD12 /* BuffSDK.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		E6849C1F23322C0200D191A9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6849C1E23322C0200D191A9 /* AppDelegate.swift */; };
 		E6849C2123322C0200D191A9 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6849C2023322C0200D191A9 /* LoginViewController.swift */; };
 		E6849C2423322C0200D191A9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E6849C2223322C0200D191A9 /* Main.storyboard */; };
@@ -14,24 +16,22 @@
 		E6849C2923322C0400D191A9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E6849C2723322C0400D191A9 /* LaunchScreen.storyboard */; };
 		E6849C3423322C0400D191A9 /* buffup_iosTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6849C3323322C0400D191A9 /* buffup_iosTests.swift */; };
 		E6849C3F23322C0400D191A9 /* buffup_iosUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6849C3E23322C0400D191A9 /* buffup_iosUITests.swift */; };
-		E685C5A223D8A991003C6045 /* BuffSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E60CED5B23ABFDF90009477B /* BuffSDK.framework */; };
-		E685C5A323D8A991003C6045 /* BuffSDK.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = E60CED5B23ABFDF90009477B /* BuffSDK.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		E6B4095623CE2B2600EEE71F /* StreamViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6B4095523CE2B2600EEE71F /* StreamViewController.swift */; };
 		E6F49A9925FA685A006C773E /* LandscapeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6F49A9825FA685A006C773E /* LandscapeViewController.swift */; };
 		E6F49AA025FA6884006C773E /* PortraitViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6F49A9F25FA6884006C773E /* PortraitViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		E60CED5A23ABFDF90009477B /* PBXContainerItemProxy */ = {
+		E6497CA725FA7DB9004AFD12 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = E60CED5523ABFDF90009477B /* BuffSDK.xcodeproj */;
+			containerPortal = E6497CA225FA7DB9004AFD12 /* BuffSDK.xcodeproj */;
 			proxyType = 2;
 			remoteGlobalIDString = E6652CBB2384247B00A1BF6D;
 			remoteInfo = BuffSDK;
 		};
-		E60CED5C23ABFDF90009477B /* PBXContainerItemProxy */ = {
+		E6497CA925FA7DB9004AFD12 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = E60CED5523ABFDF90009477B /* BuffSDK.xcodeproj */;
+			containerPortal = E6497CA225FA7DB9004AFD12 /* BuffSDK.xcodeproj */;
 			proxyType = 2;
 			remoteGlobalIDString = E6652CC42384247B00A1BF6D;
 			remoteInfo = BuffSDKTests;
@@ -59,7 +59,7 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				E685C5A323D8A991003C6045 /* BuffSDK.framework in Embed Frameworks */,
+				E6497CD025FA7FBA004AFD12 /* BuffSDK.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -67,7 +67,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		E60CED5523ABFDF90009477B /* BuffSDK.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = BuffSDK.xcodeproj; path = ../../BuffSDK/BuffSDK.xcodeproj; sourceTree = "<group>"; };
+		E6497CA225FA7DB9004AFD12 /* BuffSDK.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = BuffSDK.xcodeproj; path = ../BuffSDK/BuffSDK.xcodeproj; sourceTree = "<group>"; };
 		E6849C1B23322C0200D191A9 /* Buff Up.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Buff Up.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E6849C1E23322C0200D191A9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E6849C2023322C0200D191A9 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
@@ -92,7 +92,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E685C5A223D8A991003C6045 /* BuffSDK.framework in Frameworks */,
+				E6497CCF25FA7FBA004AFD12 /* BuffSDK.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -113,23 +113,31 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		E60CED5623ABFDF90009477B /* Products */ = {
+		E6497CA325FA7DB9004AFD12 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				E60CED5B23ABFDF90009477B /* BuffSDK.framework */,
-				E60CED5D23ABFDF90009477B /* BuffSDKTests.xctest */,
+				E6497CA825FA7DB9004AFD12 /* BuffSDK.framework */,
+				E6497CAA25FA7DB9004AFD12 /* BuffSDKTests.xctest */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		E6497CCE25FA7FBA004AFD12 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 		E6849C1223322C0200D191A9 = {
 			isa = PBXGroup;
 			children = (
-				E60CED5523ABFDF90009477B /* BuffSDK.xcodeproj */,
+				E6497CA225FA7DB9004AFD12 /* BuffSDK.xcodeproj */,
 				E6849C1D23322C0200D191A9 /* buffup-ios */,
 				E6849C3223322C0400D191A9 /* buffup-iosTests */,
 				E6849C3D23322C0400D191A9 /* buffup-iosUITests */,
 				E6849C1C23322C0200D191A9 /* Products */,
+				E6497CCE25FA7FBA004AFD12 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -303,8 +311,8 @@
 			projectDirPath = "";
 			projectReferences = (
 				{
-					ProductGroup = E60CED5623ABFDF90009477B /* Products */;
-					ProjectRef = E60CED5523ABFDF90009477B /* BuffSDK.xcodeproj */;
+					ProductGroup = E6497CA325FA7DB9004AFD12 /* Products */;
+					ProjectRef = E6497CA225FA7DB9004AFD12 /* BuffSDK.xcodeproj */;
 				},
 			);
 			projectRoot = "";
@@ -317,18 +325,18 @@
 /* End PBXProject section */
 
 /* Begin PBXReferenceProxy section */
-		E60CED5B23ABFDF90009477B /* BuffSDK.framework */ = {
+		E6497CA825FA7DB9004AFD12 /* BuffSDK.framework */ = {
 			isa = PBXReferenceProxy;
 			fileType = wrapper.framework;
 			path = BuffSDK.framework;
-			remoteRef = E60CED5A23ABFDF90009477B /* PBXContainerItemProxy */;
+			remoteRef = E6497CA725FA7DB9004AFD12 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
-		E60CED5D23ABFDF90009477B /* BuffSDKTests.xctest */ = {
+		E6497CAA25FA7DB9004AFD12 /* BuffSDKTests.xctest */ = {
 			isa = PBXReferenceProxy;
 			fileType = wrapper.cfbundle;
 			path = BuffSDKTests.xctest;
-			remoteRef = E60CED5C23ABFDF90009477B /* PBXContainerItemProxy */;
+			remoteRef = E6497CA925FA7DB9004AFD12 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
 /* End PBXReferenceProxy section */
