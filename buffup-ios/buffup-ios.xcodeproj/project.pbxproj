@@ -157,9 +157,9 @@
 				E6B716B523CF714500A52AD5 /* buffup-ios.entitlements */,
 				E6C917C0238D5A0B00AC55C7 /* Assets */,
 				E6C917BE238D59E700AC55C7 /* Storyboards */,
+				E6C917BF238D59F600AC55C7 /* ViewControllers */,
 				E6849C1E23322C0200D191A9 /* AppDelegate.swift */,
 				E6849C2A23322C0400D191A9 /* Info.plist */,
-				E6C917BF238D59F600AC55C7 /* ViewControllers */,
 			);
 			path = "buffup-ios";
 			sourceTree = "<group>";
