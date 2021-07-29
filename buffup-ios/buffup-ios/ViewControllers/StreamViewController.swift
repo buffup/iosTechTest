@@ -35,7 +35,7 @@ class StreamViewController: LandscapeViewController {
     
     override func viewDidAppear(_ animated: Bool) {
         super.viewDidAppear(animated)
-        let urlString = "https://hls-test.buffup.net/ataFootball/main.m3u8"
+        let urlString = "https://hls-test.buffup.net/sdkdemo/main.m3u8"
         if let videoURL = URL(string: urlString) {
             self.playVideoWithURL(url: videoURL)
         }
